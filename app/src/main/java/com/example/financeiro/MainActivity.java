@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Tarefa tarefa = new Tarefa();
-                tarefa.execute("https://api.hgbrasil.com/finance");
+                tarefa.execute("https://api.hgbrasil.com/finance?array_limit=1&fields=only_results,taxes&key=9a70284e");
             }
         });
     }
